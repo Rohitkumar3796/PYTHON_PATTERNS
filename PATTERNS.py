@@ -114,8 +114,16 @@ n=5
 #
 #     space=space+1
 #     rows=rows-1
-
-# UNDERSTAND THE CONCEPTS
-# OF ROW AND COLUMN TO PRINT STAR
-
+# =========================================
+# 2nd METHOD
+# n=5
+# for i in range(n, 0, -1):
+#     for j in range(0,n - i): #1st turn it print  0,2nd turn (0,1),3rd(0,2)
+# 
+#         print(' ', end='')  # printing space and staying in same line
+# 
+#     for j in range(0,2*i-1):
+#         print('*',end='')  # printing * and staying in same line
+#      # printing new line
+#     print()
 # ===========================================
